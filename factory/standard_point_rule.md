@@ -51,33 +51,33 @@
 |18|	ChMotorRunHour01	|1#冷机压缩机运行时间	|int	|	|小时|
 |19|	ChOilDP01	|1#冷机油压差	|double		||Pa|
 |20|	ChOilT01	|1#冷机油温	|double		||摄氏度|
-|21|	ChWarningFaultCode01	|1#冷机故障代码	|int	|整数，直接从冷机通讯中读取，不需要翻译|	|
+|21|	ChWarningFaultCode01	|1#冷机故障代码	|int	|整数，直接从冷机通讯中读取，不需要翻译|无	|
 
 ### 冷机附属阀门点名 ###
 
 |编号|	点名	|点名解释	|数据类型|	值解释及注意点|	单位要求|
 |--|--|--|--|--|--|
-|1	|ChEvaValveAutoMode01	|1#主机冷冻电动阀远程就地状态	|bool	|false：就地，true：远程	||
-|2	|ChEvaValveEnabled01	|1#主机冷冻电动阀使能	|bool	|false：禁用，true：启用	||
-|3	|ChEvaValveErr01	|1#主机冷冻电动阀使能	|bool	|false：正常，true：报警	||
-|4	|ChEvaValveOnOffSetting01	|1#主机冷冻电动阀开关设置	|bool	|false：正常，true：报警	||
-|5	|ChEvaValveStatus01	|1#主机冷冻电动阀开关状态	|int	|0：关闭状态, 1：开启状态, 2：关闭中，3：开启中	||
-|6	|ChConValveAutoMode01	|1#主机冷却电动阀远程就地状态	|bool	|false：就地，true：远程	||
-|7	|ChConValveEnabled01	|1#主机冷却电动阀使能	|bool	|false：禁用，true：启用	||
-|8	|ChConValveErr01	|1#主机冷却电动阀报警	|bool	|false：正常，true：报警	||
-|9	|ChConValveOnOffSetting01	|1#主机冷却电动阀开关控制|	bool	|false：发送关指令，true：发送开指令	||
-|10	|ChConValveStatus01	|1#主机冷却电动阀开关状态|	int	|0：关闭状态, 1：开启状态, 2：关闭中，3：开启中	||
+|1	|ChEvaValveAutoMode01	|1#主机冷冻电动阀远程就地状态	|bool	|false：就地，true：远程	|无|
+|2	|ChEvaValveEnabled01	|1#主机冷冻电动阀使能	|bool	|false：禁用，true：启用	|无|
+|3	|ChEvaValveErr01	|1#主机冷冻电动阀使能	|bool	|false：正常，true：报警	|无|
+|4	|ChEvaValveOnOffSetting01	|1#主机冷冻电动阀开关设置	|bool	|false：正常，true：报警	|无|
+|5	|ChEvaValveStatus01	|1#主机冷冻电动阀开关状态	|int	|0：关闭状态, 1：开启状态, 2：关闭中，3：开启中	|无|
+|6	|ChConValveAutoMode01	|1#主机冷却电动阀远程就地状态	|bool	|false：就地，true：远程	|无|
+|7	|ChConValveEnabled01	|1#主机冷却电动阀使能	|bool	|false：禁用，true：启用	|无|
+|8	|ChConValveErr01	|1#主机冷却电动阀报警	|bool	|false：正常，true：报警	|无|
+|9	|ChConValveOnOffSetting01	|1#主机冷却电动阀开关控制|	bool	|false：发送关指令，true：发送开指令	|无|
+|10	|ChConValveStatus01	|1#主机冷却电动阀开关状态|	int	|0：关闭状态, 1：开启状态, 2：关闭中，3：开启中	|无|
 
 ### 冷机附属电表点名 ###
 |编号|	点名	|点名解释	|数据类型|	值解释及注意点|	单位要求|
 |--|--|--|--|--|--|
-|1	|ChPower01	|1#冷机电表实时有功功率	|double		||kW|
-|2	|ChPowerTotal01	|1#冷机电表有功电度值	|long int		||kWh|
+|1	|ChPower01	|1#冷机电表实时有功功率	|double		|无|kW|
+|2	|ChPowerTotal01	|1#冷机电表有功电度值	|long int		|无|kWh|
 
 ### 冷机附属虚拟软件点点名 ###
 |编号|	点名	|点名解释	|数据类型|	值解释及注意点|	单位要求|
 |--|--|--|--|--|--|
-|1	|ChEnabled01	|1#冷机启用（使能）	|bool		|0:禁用, 1:启用, 只有启用时冷机才能被开关操作，一般当冷机维修时本点位由软件设置为0||
+|1	|ChEnabled01	|1#冷机启用（使能）	|bool		|0:禁用, 1:启用, 只有启用时冷机才能被开关操作，一般当冷机维修时本点位由软件设置为0|无|
 
 
 ## 水泵 ##

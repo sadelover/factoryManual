@@ -7,9 +7,8 @@
   * [BEOP调试工具](factory/debug_tool.md)
   * [水流配置](factory/page_draw.md)
   * [导入页面](factory/page_import.md)
-
+  
 * [factory软件进阶功能](factory/basic.md)
   * [文件差错](factory/Factory_check_file.md)
-
-
+  
 * [点名规范](factory/standard_point_rule.md)

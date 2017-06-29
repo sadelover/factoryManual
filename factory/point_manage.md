@@ -16,7 +16,7 @@
 西门子OPC Server 访问点表: [opcpointdemo.xlsx](http://beop.rnbtech.com.hk/static/help/pointdebug/opcpointdemo.xlsx)
 
 ##第二步：将点表文件导入至现场引擎Core中##
-1. 下载 Factory , 下载地址: [BeOPFactory_2015_12_18.zip](http://beop.rnbtech.com.hk/static/help/BeOPFactory_2015_12_18.zip)
+1. 下载 Factory , 下载地址: [Factory_2015_12_18.zip](http://beop.rnbtech.com.hk/static/help/BeOPFactory_2015_12_18.zip)
 2. 进入Factory，打开组态文件（.s3db），菜单中进入点表管理
 3. 导入点表文件
 4. 将文件拷贝至core同目录覆盖后，重启core软件（关闭Core控制台窗口即可，系统会自动重启）

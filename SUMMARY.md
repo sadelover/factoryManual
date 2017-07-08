@@ -13,5 +13,8 @@
   
 
 * [第3部分 调试工具](factory/debug_tool.md)
+  * [项目调试](factory/project_cx.md)
 
 * [第4部分 点名规范](factory/standard_point_rule.md)
+
+
